@@ -1,0 +1,24 @@
+﻿
+div.spinedit {
+	display: inline-block;
+	position: relative;
+}
+input[type="text"].spinedit {
+	width: 80px;
+	text-align: right;
+	display: inline-block;
+	height: 40px;
+	font-size: 25px;
+}
+div.spinedit .icon-chevron-up,
+div.spinedit .icon-chevron-down {
+	position: relative;
+	cursor: pointer;
+	width: 12px;
+	left: 8px;
+	font-size: 26px;
+	color: #888;
+}
+div.spinedit .icon-chevron-up { top: -10px; }
+div.spinedit .icon-chevron-down { top: 8px; left: -4px; }
+.form-search div.spinedit, .form-inline div.spinedit, .form-horizontal div.spinedit { top: 8px; }
