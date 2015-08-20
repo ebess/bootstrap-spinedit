@@ -1,0 +1,9 @@
+{
+  "name": "spinedit",
+  "version": "0.0.1",
+  "main": ["css/bootstrap-spinedit.css", "js/bootstrap-spinedit.js"],
+  "ignore": [],
+  "dependencies": {
+    "jquery": "*"
+  }
+}
